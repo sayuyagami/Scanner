@@ -2,7 +2,6 @@ package com.app.scanner;
 
 
 import android.content.Context;
-import android.graphics.Color;
 import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,7 +16,7 @@ public class SlideAdapter extends PagerAdapter {
 
     // list of images
     public int[] lst_images = {
-            R.color.colorPrimaryDark,
+            R.drawable.image_3,
             R.drawable.image_2,
             R.drawable.image_1,
     };
@@ -34,11 +33,6 @@ public class SlideAdapter extends PagerAdapter {
             "In 1974, Ray Kurzweil started the company Kurzweil Computer Products, Inc. and continued development of omni-font OCR, which could recognize text printed in virtually any font"
     };
     // list of background colors
-    public int[]  lst_backgroundcolor = {
-            Color.rgb(170, 0, 255),
-            Color.rgb(170, 0, 255),
-            Color.rgb(170, 0, 255),
-    };
 
 
     public SlideAdapter(Context context) {
@@ -63,7 +57,6 @@ public class SlideAdapter extends PagerAdapter {
         ImageView imgslide = (ImageView)  view.findViewById(R.id.slideimg);
         TextView txttitle= (TextView) view.findViewById(R.id.txttitle);
         TextView description = (TextView) view.findViewById(R.id.txtdescription);
-        layoutslide.setBackgroundColor(lst_backgroundcolor[position]);
         imgslide.setImageResource(lst_images[position]);
         txttitle.setText(lst_title[position]);
         description.setText(lst_description[position]);
