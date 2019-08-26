@@ -58,6 +58,13 @@
              android:textColor="#000" />
       </android.support.v7.widget.CardView>
 
+      <LinearLayout
+          android:id="@+id/dotsll"
+          android:layout_width="match_parent"
+          android:layout_height="30sp"
+          android:layout_alignParentBottom="true"
+          android:layout_marginBottom="8dp"></LinearLayout>
+
    </RelativeLayout>
 
 </LinearLayout>
