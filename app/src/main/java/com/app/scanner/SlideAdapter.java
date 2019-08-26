@@ -23,15 +23,15 @@ public class SlideAdapter extends PagerAdapter {
     };
     // list of titles
     public String[] lst_title = {
-            "COSMONAUT",
-            "SATELITE",
-            "GALAXY",
+            "DETECTION",
+            "OCR",
+            "HISTORY",
     }   ;
     // list of descriptions
     public String[] lst_description = {
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+            "Optical character recognition is the electronic conversion of images of typed, handwritten or printed text into machine-encoded text, whether from a scanned document, a photo of a document",
+            "Scene text is text that appears in an image captured by a camera in an outdoor environment.The image displays the coach category in text format,",
+            "In 1974, Ray Kurzweil started the company Kurzweil Computer Products, Inc. and continued development of omni-font OCR, which could recognize text printed in virtually any font"
     };
     // list of background colors
     public int[]  lst_backgroundcolor = {
